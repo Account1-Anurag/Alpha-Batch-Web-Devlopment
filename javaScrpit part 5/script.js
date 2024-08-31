@@ -128,10 +128,85 @@
 
 // Q2. Write a function that prints "Hello World" 5 times in 2 sec
 
-let id=setInterval(()=>{
-    console.log("Hello World");
+// let id=setInterval(()=>{
+//     console.log("Hello World");
   
-},2000);
-setTimeout(()=>{
-  clearInterval(id);
-},10000);
+// },2000);
+// setTimeout(()=>{
+//   clearInterval(id);
+// },10000);
+
+
+// For- Each Loop
+
+// let arr=[{
+//   name:"Anu",
+//   marks:87,
+// },
+// {
+//   name:"Shubham",
+//   marks:58,
+// },
+// {
+//   name:"Pradeep",
+//   marks:76,
+// }
+// ];
+// arr.forEach(element => {
+//   console.log(element.marks);
+// });
+
+// map /**/ */
+
+// let arr=[1,2,3,4];
+// let double=arr.map((el)=>{
+//   return el*2;
+// });
+// let square=arr.map((el)=>{
+//   console.log(el*el);
+// });
+
+
+// let arr=[{
+//   name:"Anu",
+//   marks:87,
+// },
+// {
+//   name:"Shubham",
+//   marks:58,
+// },
+// {
+//   name:"Pradeep",
+//   marks:76,
+// }
+// ];
+
+// let cgpa=arr.map((el)=>{
+//   return el.marks/10;
+// });
+
+
+// filter
+
+// let nums=[1, 2, 3, 4, 4, 5, 7 ];
+// let even=nums.filter((el)=>{
+//   return el%2==0;
+// });
+
+
+// Every Function
+
+// let arr=[2,4,7 ,8];
+// console.log(arr.some((el)=>el%2!=0));
+
+
+// Reduce Method
+
+// let arr=[1,2,3,4];
+// let final_val=arr.reduce((ans,el)=>{
+//    res+el;
+// });
+// console.log(final_val);
+
+
+
